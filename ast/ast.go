@@ -50,7 +50,7 @@ func (i *Identifier) TokenLiteral() string {
 
 type ReturnStatement struct {
 	Token token.Token
-	Value Expression
+	ReturnValue Expression
 }
 
 func (rtn *ReturnStatement) statementNode() {}
